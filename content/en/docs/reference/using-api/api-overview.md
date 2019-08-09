@@ -96,7 +96,7 @@ The two paths that support extending the API with [custom resources](/docs/conce
 Certain resources and API groups are enabled by default. You can enable or disable them by setting `--runtime-config`
 on the apiserver. `--runtime-config` accepts comma separated values. For example:
  - to disable batch/v1, set `--runtime-config=batch/v1=false`
- - to enable batch/v2alpha1, set `--runtime-config=batch/v2alpha1`
+ - to enable batch/v2alpha1, set `--runtime-config=batch/v2alpha1=true`
 The flag accepts comma separated set of key=value pairs describing runtime configuration of the apiserver.
 
 {{< note >}}
